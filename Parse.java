@@ -185,7 +185,7 @@ class Parse {
        } catch (Exception e) {
        
        }
-       System.out.println("Parser Error on Line " + parser.scanner.errorLine); 
+       System.out.println("Parse error in line " + parser.scanner.errorLine); 
     } 
 
     public class TokenNode {
